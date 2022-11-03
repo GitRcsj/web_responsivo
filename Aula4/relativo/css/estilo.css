@@ -1,0 +1,33 @@
+body {
+    background: rgb(200, 245,190);
+}
+
+.conteudo {
+    background: white;
+    font-size: 24px;
+    width: 900px;
+    margin: 30px auto;
+    padding: 8px;
+
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 300px;
+    position: static;
+
+}
+
+.relativo{
+    border: 2px dotted blue;
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+
+/*
+    O posicionamento relitivo permite que o elemento seja deslocado em relação ao ponto onde ele seria renderizado
+*/
